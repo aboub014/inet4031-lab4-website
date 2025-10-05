@@ -7,7 +7,7 @@
     <style>
         /* Page styling */
         body {
-            background-color: #e0f7fa; /* Light cyan background */
+            background-color: #fff3e0; /* Light orange background */
             font-family: Arial, sans-serif;
             text-align: center;
             padding: 50px;
@@ -16,7 +16,7 @@
         /* Header with cursive font */
         h1 {
             font-family: 'Brush Script MT', cursive;
-            color: #00796b; /* Teal color */
+            color: #ff6f00; /* Dark orange */
             font-size: 48px;
             margin-bottom: 20px;
         }
@@ -38,13 +38,13 @@
             border: none;
             border-radius: 8px;
             cursor: pointer;
-            background-color: #26a69a;
+            background-color: #ff9800;
             color: white;
             transition: background-color 0.3s;
         }
 
         button:hover {
-            background-color: #00796b;
+            background-color: #e65100;
         }
 
         /* Lightbulb image */
@@ -58,8 +58,8 @@
     <h1>Welcome to Taslima's Web Page!</h1>
     <p>This interactive page demonstrates how JavaScript can control HTML elements. Click the buttons below to turn the lightbulb on and off. It’s a simple example of how web pages can respond to user actions.</p>
 
-    <!-- Using reliable PNG images -->
-    <img id="lightbulb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Light_bulb_off_icon.svg/120px-Light_bulb_off_icon.svg.png" alt="Lightbulb">
+    <!-- Using a new reliable lightbulb image -->
+    <img id="lightbulb" src="https://www.pngkey.com/png/full/101-1014825_yellow-light-bulb-png-clip-art-yellow-light.png" alt="Lightbulb Off">
 
     <div>
         <button onclick="turnOn()">Turn On</button>
@@ -68,11 +68,11 @@
 
     <script>
         function turnOn() {
-            document.getElementById('lightbulb').src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Light_bulb_icon.svg/120px-Light_bulb_icon.svg.png";
+            document.getElementById('lightbulb').src = "https://www.pngkey.com/png/full/101-1014825_yellow-light-bulb-png-clip-art-yellow-light.png";
         }
 
         function turnOff() {
-            document.getElementById('lightbulb').src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Light_bulb_off_icon.svg/120px-Light_bulb_off_icon.svg.png";
+            document.getElementById('lightbulb').src = "https://www.pngkey.com/png/full/101-1014825_yellow-light-bulb-png-clip-art-yellow-light.png";
         }
     </script>
 </body>
