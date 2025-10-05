@@ -2,15 +2,12 @@
 
 ## Instructions, files, code for Lab 6.
 
-What if you aren't nearby the computer you need to work on?
+# Taslima's Custom Web Page
 
-Up until this point, our Lab activities have been accomplished by doing them on our laptops.
+This repository contains a custom HTML and JavaScript project that demonstrates interactive web elements. 
 
-In this activity we explore the concept of "servers."  Which typically aren't located where we are.
+- Change the background color
+- Update text to be unique
+- Control a lightbulb icon with buttons using JavaScript
 
-We have to connect to them remotely
-
-This Lab explores that concept.
-
-
-
+This project was created as part of Module 4 exercises to practice HTML, CSS, and JavaScript basics.
