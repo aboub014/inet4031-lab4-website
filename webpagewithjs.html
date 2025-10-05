@@ -5,31 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taslima's Custom Web Page</title>
     <style>
+        /* Page styling */
         body {
-            background-color: #f0e68c; /* Changed background color */
+            background-color: #e0f7fa; /* Light cyan background */
             font-family: Arial, sans-serif;
             text-align: center;
             padding: 50px;
         }
+
+        /* Header with cursive font */
         h1 {
-            color: #2e8b57;
+            font-family: 'Brush Script MT', cursive;
+            color: #00796b; /* Teal color */
+            font-size: 48px;
+            margin-bottom: 20px;
         }
+
+        /* Paragraph styling */
         p {
             font-size: 18px;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+            line-height: 1.5;
         }
+
+        /* Buttons styling */
         button {
-            padding: 10px 20px;
+            padding: 12px 25px;
             font-size: 16px;
             margin: 10px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            background-color: #26a69a;
+            color: white;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #00796b;
+        }
+
+        /* Lightbulb image */
+        #lightbulb {
+            width: 150px;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
     <h1>Welcome to Taslima's Web Page!</h1>
-    <p>This page demonstrates how a simple JavaScript program can interact with HTML elements to turn a lightbulb icon on and off.</p>
-    
-    <img id="lightbulb" src="light-off.png" alt="Lightbulb" width="150">
-    
+    <p>This interactive page demonstrates how JavaScript can control HTML elements. Click the buttons below to turn the lightbulb on and off. It’s a simple example of how web pages can respond to user actions.</p>
+
+    <!-- Using online images so they appear immediately -->
+    <img id="lightbulb" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Light_bulb_off.svg" alt="Lightbulb">
+
     <div>
         <button onclick="turnOn()">Turn On</button>
         <button onclick="turnOff()">Turn Off</button>
@@ -37,11 +68,13 @@
 
     <script>
         function turnOn() {
-            document.getElementById('lightbulb').src = 'light-on.png';
+            document.getElementById('lightbulb').src = "https://upload.wikimedia.org/wikipedia/commons/1/19/Light_bulb_on.svg";
         }
+
         function turnOff() {
-            document.getElementById('lightbulb').src = 'light-off.png';
+            document.getElementById('lightbulb').src = "https://upload.wikimedia.org/wikipedia/commons/6/6e/Light_bulb_off.svg";
         }
     </script>
 </body>
 </html>
+
